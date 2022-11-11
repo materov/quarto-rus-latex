@@ -1,0 +1,136 @@
+---
+lang: ru
+title: "ЗАДАНИЯ К ЗАЧЕТУ С ОЦЕНКОЙ"
+format:
+    pdf:
+        toc: true
+        number-sections: true
+        color-links: true
+        keep-tex: false
+        template: template.tex
+    # docx:
+    #     toc: true
+    #     toc-depth: 2
+    #     section-numbers: true
+    #     hightlight-style: github
+    #     reference-doc: template.docx
+execute:
+    echo: false
+# jupyter: python3
+mainfont: "Times New Roman"
+---
+
+# Найти матрицу обратную к заданной
+
+$$\text{
+a) $\begin{pmatrix}
+  3 & -1 &  3 \\
+ -2 & -2 &  3 \\
+  4 &  0 &  1 \\
+\end{pmatrix}$;
+\ \ \ \ \ 
+б) $\begin{pmatrix}
+ -1 & -1 &  2 \\
+  2 & -2 &  2 \\
+  4 &  4 &  3 \\
+\end{pmatrix}$;
+\ \ \ \ \ 
+в) $\begin{pmatrix}
+ -1 & -1 &  2 \\
+  1 & -2 &  3 \\
+  4 &  0 &  1 \\
+\end{pmatrix}$.}
+$$
+
+# Кривые второго порядка
+
+а) Написать каноническое уравнение эллипса, если его большая полуось равна 5, а фокусы расположены в точках  $(\pm4, 0)$.
+
+б) Написать каноническое уравнение гиперболы, если ее действительная полуось равна 8, а фокусы расположены в точках  $(\pm10, 0)$.
+
+в) Написать каноническое уравнение параболы с вершиной в точке $(0; 0)$ и директрисой $x=-2$.
+
+г) Написать каноническое уравнение эллипса, если его малая полуось равна 4, а фокусы расположены в точках  $(\pm3, 0)$.
+
+д) Написать каноническое уравнение параболы с вершиной в точке $(0; 0)$ и директрисой $y=10$.
+
+# Вычисление пределов
+
+Вычислить
+
+$$\begin{array}{rll}
+\text{а:} & 
+\text{i) $\displaystyle\lim\limits_{x\to\infty}\frac{2x^2-4x+5}{x^2-1}$,} &
+\text{ii) $\displaystyle\lim\limits_{x\to\infty}\frac{\sin2x}{\sin5x}$.} 
+\\[1em]
+\text{б:} &
+\text{i) $\displaystyle\lim\limits_{x\to\infty}\frac{2x^2-4x+5}{4x-x^2}$,} &
+\text{ii) $\displaystyle\lim\limits_{x\to 0}\frac{\operatorname{tg}2x}{5x}$.}
+\\[1em]
+\text{в:} &
+\text{i) $\displaystyle\lim\limits_{x\to\infty}\lim\frac{{{x}^{2}}-4{{x}^{3}}+5}{2{{x}^{3}}-{{x}^{2}}}$,} &
+\text{ii) $\displaystyle\lim\limits_{x\to 0}\frac{x}{\operatorname{tg}6x}$.}
+\end{array}
+$$
+
+# Найти наклонные асимптоты графика функции
+
+$$\text{
+а) $\displaystyle y=\frac{\sqrt{x}}{3+2\sqrt{x}}$;\ \ \ \ \ 
+б) $\displaystyle y=\frac{2\sqrt{x}}{1+2x}$.}$$
+
+
+# Найти производную функции
+
+$\qquad\text{
+а) $\displaystyle e^{4+\cos x^4}$; \ \ \ 
+б) $\displaystyle\operatorname{tg}\,{{e}^{2{{x}^{2}}+1}}$;
+\ \ \ 
+в) $\displaystyle {{e}^{\operatorname{tg\,}x+\sin 2{{x}^{2}}}}$;
+\ \ \ 
+г) $\displaystyle\sin({{2}^{1+2{{x}^{2}}}})$;
+\ \ \  
+д) $y=\operatorname{tg}{{3}^{2{{x}^{2}}}}$.}$
+
+
+# Вычислить неопределенный интеграл
+
+$$\text{a) $\int{\left[\operatorname{ctg}(10+0,2x)+{{x}^{2}}\sqrt{6+{{x}^{3}}}+x\cdot {{e}^{4x}} \right]}dx$;}$$
+
+$$\text{б) $\int{\left[\operatorname{tg\,}(12-0,1x)+2x\sqrt{4+4{{x}^{2}}}+x\cdot \ln 3x \right]}dx$;}$$
+
+$$\text{в) $\int{\left[ {{(1-0{,}2x)}^{5}}+{{x}^{5}}\sqrt{1-4{{x}^{6}}}+x\cdot \sin 3x \right]}dx$;}$$
+
+$$\text{г) $\int{\left[ {{(0,2x-1)}^{4}}+{{x}^{3}}\sqrt{1\text{+}2{{x}^{4|}}}+x\cdot {{e}^{-2x}} \right]}dx$.}$$
+
+
+# Найти площадь фигуры, ограниченной линиями
+
+а) $y=2{{x}^{4}}$, $x=-5$ и осью $Ox$;
+
+б) $y=4-2x^2$, $x=1$ и осью $Ox$.
+
+# Приближенные вычисления с помощью дифференциала
+
+Вычислить приближенно при помощи полного дифференциала, оценить абсолютную и относительную погрешность приближения:
+
+$\qquad\text{
+а) $\ln (\sqrt{0,92}+\sqrt[3]{1,05}-1)$;
+\ \ \ \ \ 
+б) $\sin(\sqrt[5]{0.07}+\sqrt[3]{-0,03})$.}$
+
+# Частные производные
+Найти частные производные второго порядка от функции
+
+а) $\operatorname{tg}({{x}^{2}}+{{y}^{2}})$;
+
+б) $\ln\frac{1}{x+y}$;
+
+в) $\operatorname{arctg}({{x}^{3}}+{{y}^{3}})$.
+
+# Вычислить двойной интеграл
+
+a) $\displaystyle\iint\limits_{G}{{{({{x}^{2}}+{{y}^{2}})}^{6}}dx}dy$,
+где $G$ – сектор круга радиуса 1 с центром в начале координат, лежащий во II квадранте.
+
+б) $\displaystyle\iint\limits_{G}{{{e}^{{{x}^{2}}+{{y}^{2}}}}dx}dy$, где $G$ – левый полукруг радиуса $\ln 5$ с центром в начале координат. 
